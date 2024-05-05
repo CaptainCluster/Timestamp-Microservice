@@ -27,6 +27,7 @@ app.get("/api/hello", function (req, res) {
 
 
 // Providing my changes to the program
+//////////////////////////////////////////
 app.get("/api/:date", function(req, res)
 {
   let date = req.params.date;
@@ -56,6 +57,9 @@ app.get("/api/:date", function(req, res)
   });
 
 });
+
+//////////////////////////////////////////
+
 
 app.get("/api", function(req,res)
 {
